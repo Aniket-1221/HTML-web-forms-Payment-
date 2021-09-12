@@ -5,23 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-h1 {
-text-align: center;
-color:rgb(4, 255, 255);
-background-color:rgb(53, 53, 53);
-border-radius: 15px;
-border: 2px solid rgb(4, 255, 255);
 
-}
-h2{
-color:rgb(14, 14, 14);
-}
-</style>
 <body>
+    <div class="container">
     <form action="">
-        <h1>Payment Form </h1>
+        <h1 class="main_heading">Payment Form </h1>
+        <hr>
         <h2>Contact Information</h2>
         <p>Name: <input type="text" name="name" required></p>
         <fieldset>
@@ -52,8 +43,9 @@ color:rgb(14, 14, 14);
     <p>
         Enter Cvv: <input type="password" name="cvv" id="cvv">
     </p>
-    <input type="submit" value="Pay Now" style="background-color: rgb(4, 255, 255);">
+    <input type="submit" value="Pay Now" >
     </form>
+</div>
 </body>
 </html>
 
